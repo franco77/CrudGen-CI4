@@ -819,3 +819,270 @@ in APPPATH\Views\clientes\read_clientes.php on line 6.
 10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
 11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 INFO - 2024-11-26 11:44:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-26 12:19:39 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: Clientes/read/img/undraw_profile_1.svg]
+in APPPATH\Views\clientes\read_clientes.php on line 6.
+ 1 APPPATH\Views\clientes\read_clientes.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\clientes\\read_clientes.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\clientes\\read_clientes.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('clientes/read_clientes', [], true)
+ 5 APPPATH\Controllers\Clientes.php(103): view('clientes/read_clientes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->read('img', 'undraw_profile_1.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-26 12:19:39 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: Clientes/read/img/undraw_profile_2.svg]
+in APPPATH\Views\clientes\read_clientes.php on line 6.
+ 1 APPPATH\Views\clientes\read_clientes.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\clientes\\read_clientes.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\clientes\\read_clientes.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('clientes/read_clientes', [], true)
+ 5 APPPATH\Controllers\Clientes.php(103): view('clientes/read_clientes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->read('img', 'undraw_profile_2.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-26 12:19:39 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: Clientes/read/img/undraw_profile.svg]
+in APPPATH\Views\clientes\read_clientes.php on line 6.
+ 1 APPPATH\Views\clientes\read_clientes.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\clientes\\read_clientes.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\clientes\\read_clientes.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('clientes/read_clientes', [], true)
+ 5 APPPATH\Controllers\Clientes.php(103): view('clientes/read_clientes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->read('img', 'undraw_profile.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-26 12:19:39 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: Clientes/read/img/undraw_profile_3.svg]
+in APPPATH\Views\clientes\read_clientes.php on line 6.
+ 1 APPPATH\Views\clientes\read_clientes.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\clientes\\read_clientes.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\clientes\\read_clientes.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('clientes/read_clientes', [], true)
+ 5 APPPATH\Controllers\Clientes.php(103): view('clientes/read_clientes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->read('img', 'undraw_profile_3.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-26 12:19:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-26 12:19:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-26 12:25:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-26 12:25:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-26 12:26:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-26 12:26:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-26 12:26:12 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: Clientes/read/img/undraw_profile_1.svg]
+in APPPATH\Views\clientes\read_clientes.php on line 6.
+ 1 APPPATH\Views\clientes\read_clientes.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\clientes\\read_clientes.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\clientes\\read_clientes.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('clientes/read_clientes', [], true)
+ 5 APPPATH\Controllers\Clientes.php(103): view('clientes/read_clientes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->read('img', 'undraw_profile_1.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-26 12:26:12 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: Clientes/read/img/undraw_profile_2.svg]
+in APPPATH\Views\clientes\read_clientes.php on line 6.
+ 1 APPPATH\Views\clientes\read_clientes.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\clientes\\read_clientes.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\clientes\\read_clientes.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('clientes/read_clientes', [], true)
+ 5 APPPATH\Controllers\Clientes.php(103): view('clientes/read_clientes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->read('img', 'undraw_profile_2.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-26 12:26:12 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: Clientes/read/img/undraw_profile.svg]
+in APPPATH\Views\clientes\read_clientes.php on line 6.
+ 1 APPPATH\Views\clientes\read_clientes.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\clientes\\read_clientes.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\clientes\\read_clientes.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('clientes/read_clientes', [], true)
+ 5 APPPATH\Controllers\Clientes.php(103): view('clientes/read_clientes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->read('img', 'undraw_profile.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-26 12:26:12 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: Clientes/read/img/undraw_profile_3.svg]
+in APPPATH\Views\clientes\read_clientes.php on line 6.
+ 1 APPPATH\Views\clientes\read_clientes.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\clientes\\read_clientes.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\clientes\\read_clientes.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('clientes/read_clientes', [], true)
+ 5 APPPATH\Controllers\Clientes.php(103): view('clientes/read_clientes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->read('img', 'undraw_profile_3.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-26 12:26:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-26 12:26:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-26 12:26:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-26 12:26:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-26 12:26:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-26 12:26:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-26 12:26:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-26 12:26:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-26 12:46:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-26 12:48:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-26 12:48:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-26 12:51:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-26 12:51:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-26 12:51:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-26 12:51:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-26 12:51:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-26 12:51:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-26 12:51:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-26 12:51:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-26 12:54:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-26 12:57:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-26 12:58:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-26 12:58:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-26 12:58:52 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: Categorias/read/img/undraw_profile_2.svg]
+in APPPATH\Views\categorias\read_categorias.php on line 6.
+ 1 APPPATH\Views\categorias\read_categorias.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\categorias\\read_categorias.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\categorias\\read_categorias.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('categorias/read_categorias', [], true)
+ 5 APPPATH\Controllers\Categorias.php(96): view('categorias/read_categorias', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Categorias->read('img', 'undraw_profile_2.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-26 12:58:52 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: Categorias/read/img/undraw_profile_1.svg]
+in APPPATH\Views\categorias\read_categorias.php on line 6.
+ 1 APPPATH\Views\categorias\read_categorias.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\categorias\\read_categorias.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\categorias\\read_categorias.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('categorias/read_categorias', [], true)
+ 5 APPPATH\Controllers\Categorias.php(96): view('categorias/read_categorias', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Categorias->read('img', 'undraw_profile_1.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-26 12:58:52 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: Categorias/read/img/undraw_profile_3.svg]
+in APPPATH\Views\categorias\read_categorias.php on line 6.
+ 1 APPPATH\Views\categorias\read_categorias.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\categorias\\read_categorias.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\categorias\\read_categorias.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('categorias/read_categorias', [], true)
+ 5 APPPATH\Controllers\Categorias.php(96): view('categorias/read_categorias', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Categorias->read('img', 'undraw_profile_3.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-26 12:58:52 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: Categorias/read/img/undraw_profile.svg]
+in APPPATH\Views\categorias\read_categorias.php on line 6.
+ 1 APPPATH\Views\categorias\read_categorias.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\categorias\\read_categorias.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\categorias\\read_categorias.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('categorias/read_categorias', [], true)
+ 5 APPPATH\Controllers\Categorias.php(96): view('categorias/read_categorias', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Categorias->read('img', 'undraw_profile.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-26 12:58:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-26 12:58:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-26 12:58:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-26 12:58:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-26 12:58:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-26 12:58:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-26 12:58:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-26 12:59:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-26 12:59:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-26 12:59:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-26 12:59:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-26 12:59:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-26 12:59:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-26 12:59:57 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: Clientes/read/img/undraw_profile_2.svg]
+in APPPATH\Views\clientes\read_clientes.php on line 6.
+ 1 APPPATH\Views\clientes\read_clientes.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\clientes\\read_clientes.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\clientes\\read_clientes.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('clientes/read_clientes', [], true)
+ 5 APPPATH\Controllers\Clientes.php(103): view('clientes/read_clientes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->read('img', 'undraw_profile_2.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-26 12:59:57 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: Clientes/read/img/undraw_profile_1.svg]
+in APPPATH\Views\clientes\read_clientes.php on line 6.
+ 1 APPPATH\Views\clientes\read_clientes.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\clientes\\read_clientes.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\clientes\\read_clientes.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('clientes/read_clientes', [], true)
+ 5 APPPATH\Controllers\Clientes.php(103): view('clientes/read_clientes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->read('img', 'undraw_profile_1.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-26 12:59:57 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: Clientes/read/img/undraw_profile.svg]
+in APPPATH\Views\clientes\read_clientes.php on line 6.
+ 1 APPPATH\Views\clientes\read_clientes.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\clientes\\read_clientes.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\clientes\\read_clientes.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('clientes/read_clientes', [], true)
+ 5 APPPATH\Controllers\Clientes.php(103): view('clientes/read_clientes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->read('img', 'undraw_profile.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-26 12:59:57 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: Clientes/read/img/undraw_profile_3.svg]
+in APPPATH\Views\clientes\read_clientes.php on line 6.
+ 1 APPPATH\Views\clientes\read_clientes.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\clientes\\read_clientes.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\clientes\\read_clientes.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('clientes/read_clientes', [], true)
+ 5 APPPATH\Controllers\Clientes.php(103): view('clientes/read_clientes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->read('img', 'undraw_profile_3.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-26 13:12:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
