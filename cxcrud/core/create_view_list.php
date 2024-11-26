@@ -17,9 +17,9 @@ $string = "
 
 
     <table id=\"expensesTable\" class=\"table table-bordered\" id=\"dataTable\" width=\"100%\" cellspacing=\"0\">
-        <thead>
-            <tr>
-                <th>No</th>";
+    <thead>
+        <tr>
+        <th>No</th>";
 foreach ($non_pk as $row) {
     if (isset($_POST['field_' . $row['column_name']]) && isset($_POST['generate'])) //meedun code selected
     {
@@ -33,9 +33,9 @@ foreach ($non_pk as $row) {
 $string .= "\n\t\t<th>Action</th>";
 
 $string .= "
-            </tr>
-        </thead>
-        <tbody>
+        </tr>
+    </thead>
+         <tbody>
         </tbody>
     </table>
    
@@ -54,7 +54,6 @@ $(document).ready(function() {
         },
         columns: [{
             data: \"id\", render: function(data, type, row, meta) { return meta.row + 1; } },";
-// Generar columnas dinámicamente con base en los campos
 foreach ($non_pk as $row) {
     if (isset($_POST['field_' . $row['column_name']]) && isset($_POST['generate'])) {
         if ($row['column_name'] === 'file') {
@@ -65,7 +64,6 @@ foreach ($non_pk as $row) {
             } 
             },";
         } else {
-            // Campos seleccionados manualmente
             $string .= "\n\t\t\t{ data: \"" . $row['column_name'] . "\" },";
         }
     } elseif (isset($_POST['generateall'])) {
@@ -77,15 +75,13 @@ foreach ($non_pk as $row) {
             } 
             },";
         } else {
-            // Campos seleccionados manualmente
             $string .= "\n\t\t\t{ data: \"" . $row['column_name'] . "\" },";
         }
     }
 }
 
-// Columna de acciones
 $string .= " {
-            data: \"id\", // Usaremos el ID para las acciones
+            data: \"id\", 
             render: function(data, type, row) {
                 return `
                         <a href=\"<?= site_url('" . $c . "/read/') ?>\${data}\" class=\"btn btn-sm btn-primary\">Read</a>
@@ -93,14 +89,13 @@ $string .= " {
                         <a href=\"#\" class=\"btn btn-sm btn-danger\" onclick=\"confirmDelete(\${data})\">Delete</a>
                     `;
             },
-            orderable: false, // Deshabilitar orden en esta columna
-            searchable: false // Deshabilitar búsqueda en esta columna
+            orderable: false, 
+            searchable: false 
         }]
     });
 
 });
 
-// Función para mostrar SweetAlert antes de borrar
 function confirmDelete(id) {
     Swal.fire({
         title: '¿Estás seguro?',

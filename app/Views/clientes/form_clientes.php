@@ -2,6 +2,7 @@
 <?= $this->section('content'); ?>
 <h4 style="margin-top:0px">Clientes <?php echo $content; ?></h4>
 <form action="<?= base_url($action) ?>" method="post" enctype="multipart/form-data">
+            
 	<div class="form-group">
             <label for="nombre">Nombre</label>
             <input type="text" class="form-control" autocomplete="off" name="nombre" id="nombre"
@@ -10,6 +11,7 @@
                 <span class="text-danger"><?= session('errors')['nombre'] ?></span> 
             <?php endif; ?>
         </div>
+            
 	<div class="form-group">
             <label for="email">Email</label>
             <input type="text" class="form-control" autocomplete="off" name="email" id="email"
@@ -18,6 +20,7 @@
                 <span class="text-danger"><?= session('errors')['email'] ?></span> 
             <?php endif; ?>
         </div>
+            
 	<div class="form-group">
             <label for="telefono">Telefono</label>
             <input type="text" class="form-control" autocomplete="off" name="telefono" id="telefono"
@@ -26,6 +29,7 @@
                 <span class="text-danger"><?= session('errors')['telefono'] ?></span> 
             <?php endif; ?>
         </div>
+            
 	 <div class="form-group">
                         <label for="direccion">Direccion
                             <?php echo ('direccion') ?></label>
@@ -35,6 +39,7 @@
                                 <span class="text-danger"><?= session('errors')['direccion'] ?></span> 
                                 <?php endif; ?>
                     </div>
+            
 	 <div class="form-group">
             <label for="fecha_nacimiento">Fecha Nacimiento
                 <?php echo ('fecha_nacimiento') ?></label>
@@ -49,6 +54,7 @@
                                 <span class="text-danger"><?= session('errors')['fecha_nacimiento'] ?></span> 
                                 <?php endif; ?>
         </div>
+            
 	<div class="form-group">
             <label for="file">File</label>
             <input type="file" class="form-control" autocomplete="off" name="file" id="file"

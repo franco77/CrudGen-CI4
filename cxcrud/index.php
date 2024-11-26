@@ -8,7 +8,7 @@ require_once 'core/process.php';
 <html>
 
 <head>
-    <title>LigatCode Codeigniter 4 CRUD Generator</title>
+    <title>Cx-Crud</title>
     <link rel="stylesheet" href="core/bootstrap.min.css" />
     <style>
         body {
@@ -54,7 +54,7 @@ require_once 'core/process.php';
 
         <div class="col-lg-4 col-lg-push-8">
             <form action="index.php" method="POST" id="myform" name="myform">
-                <div class="alert alert-danger">
+                <div class="alert alert-success">
                     <div class="form-group">
                         <label>Select Table - <a href="<?php echo $_SERVER['PHP_SELF'] ?>">Refresh</a></label>
                         <select id="table_name" name="table_name" class="form-control" onchange="setname()">
@@ -78,15 +78,10 @@ require_once 'core/process.php';
                     <span id="uncheckshow" class="btn btn-sm btn-danger" style="display:none;" href="#">Uncheck All Field</span></br>
                     <div id="myresponse">
                         <?php
-                        ################################################################
-                        # Meedun 2020 Agust 27  blog.simeedun.com
-                        ################################################################
                         if (isset($_POST['table_name'])) {
                             echo "<div class='alert alert-info'>";
                             echo "<b>List Filed Of Table " . $_POST['table_name'] . "</b><br> <small>Please select the fields to be displayed<br>This feature only affects the <code>Generator</code> button, <br>ignored in <code>Generate All</code></small><hr>";
                             $table_all_field = isset($_POST['table_name']) ? $ligat->all_field($_POST['table_name']) : '';
-                            //var_dump($table_all_field);
-                            //echo'<a id="check_show" class="check_show" href="#">Show All</a></br>';
                             foreach ($table_all_field as $field) {
                                 $fieldKey = 'field_' . $field['column_name'];
                                 $check = isset($_POST[$fieldKey]) && $_POST[$fieldKey] == '1' ? "checked" : '';
@@ -109,78 +104,14 @@ require_once 'core/process.php';
                             echo '<hr>
                                 <p class="text-red">Features added by <a href="https:\\blog.simeedun.com" target="_blank">Meedun</a></p>
                                 </div>';
-                        }
-                        ################################################################
-                        # Meedun 2020 Agust 27 blog.simeedun.com
-                        ################################################################
-                        ?>
+                        }  ?>
 
                     </div>
                 </div>
+
+
+
                 <div class="alert alert-success">
-                    <div class="form-group ">
-                        <div class="row">
-                            <?php $jenis_tabel = isset($_POST['jenis_tabel']) ? $_POST['jenis_tabel'] : 'reguler_table'; ?>
-                            <div class="col-md-5">
-                                <div class="radio" style="margin-bottom: 0px; margin-top: 0px">
-                                    <label>
-                                        <input type="radio" name="jenis_tabel" value="reguler_table" <?php echo $jenis_tabel == 'reguler_table' ? 'checked' : ''; ?>>
-                                        Reguler Table
-                                    </label>
-                                </div>
-                            </div>
-                            <div class="col-md-7">
-                                <div class="radio" style="margin-bottom: 0px; margin-top: 0px">
-                                    <label>
-                                        <input disabled type="radio" name="jenis_tabel" value="datatables" <?php echo $jenis_tabel == 'datatables' ? 'checked' : ''; ?>>
-                                        Serverside Datatables
-                                    </label>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="alert alert-info">
-                    <b>Export Menu: </b><small>(not yet supported)</small>
-                    <hr>
-                    <div class="form-group">
-                        <div class="checkbox">
-                            <?php $export_excel = isset($_POST['export_excel']) ? $_POST['export_excel'] : ''; ?>
-                            <label>
-                                <input disabled type="checkbox" name="export_excel" value="1" <?php echo $export_excel == '1' ? 'checked' : '' ?>>
-                                Export Excel
-                            </label>
-                        </div>
-                    </div>
-
-                    <div class="form-group">
-                        <div class="checkbox">
-                            <?php $export_word = isset($_POST['export_word']) ? $_POST['export_word'] : ''; ?>
-                            <label>
-                                <input disabled type="checkbox" name="export_word" value="1" <?php echo $export_word == '1' ? 'checked' : '' ?>>
-                                Export Word
-                            </label>
-                        </div>
-                    </div>
-                </div>
-                <!--                    <div class="form-group">
-                                            <div class="checkbox  <?php // echo file_exists('../application/third_party/mpdf/mpdf.php') ? '' : 'disabled';   
-                                                                    ?>">
-                    <?php // $export_pdf = isset($_POST['export_pdf']) ? $_POST['export_pdf'] : ''; 
-                    ?>
-                                                <label>
-                                                    <input type="checkbox" name="export_pdf" value="1" <?php // echo $export_pdf == '1' ? 'checked' : ''   
-                                                                                                        ?>
-                    <?php // echo file_exists('../application/third_party/mpdf/mpdf.php') ? '' : 'disabled'; 
-                    ?>>
-                                                    Export PDF
-                                                </label>
-                    <?php // echo file_exists('../application/third_party/mpdf/mpdf.php') ? '' : '<small class="text-danger">mpdf required, download <a href="http://harviacode.com">here</a></small>'; 
-                    ?>
-                                            </div>
-                                        </div>-->
-
-                <div class="alert alert-danger">
                     <div class="form-group">
                         <label>Custom Controller Name</label>
                         <input type="text" id="controller" name="controller" value="<?php echo isset($_POST['controller']) ? $_POST['controller'] : '' ?>" class="form-control" placeholder="Controller Name" />

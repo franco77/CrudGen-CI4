@@ -8,7 +8,7 @@ $string = "<?= \$this->extend('layout/template'); ?>
 foreach ($non_pk as $row) {
     if (isset($_POST['field_' . $row['column_name']]) && isset($_POST['generate']))  //meedun code selected filed
     {
-        $string .= "\n\t    <tr><th width=\"15%\">" . label($row["column_name"]) . "</th><td>: \t<?php echo \$data['" . $row["column_name"] . "']; ?></td></tr>";
+        $string .= "\n\t<tr><th width=\"15%\">" . label($row["column_name"]) . "</th><td>: \t<?php echo \$data['" . $row["column_name"] . "']; ?></td></tr>";
     }
     if (isset($_POST['generateall']))  //meedun code selected filed
     {

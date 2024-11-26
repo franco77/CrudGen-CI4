@@ -16,9 +16,9 @@
 
 
     <table id="expensesTable" class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
-        <thead>
-            <tr>
-                <th>No</th>
+    <thead>
+        <tr>
+        <th>No</th>
 		<th>Nombre</th>
 		<th>Email</th>
 		<th>Telefono</th>
@@ -26,9 +26,9 @@
 		<th>Fecha Nacimiento</th>
 		<th>File</th>
 		<th>Action</th>
-            </tr>
-        </thead>
-        <tbody>
+        </tr>
+    </thead>
+         <tbody>
         </tbody>
     </table>
    
@@ -58,7 +58,7 @@ $(document).ready(function() {
                 return '<img src="' + data + '" alt="Image" style="width:50px;height:50px;"/>'; 
             } 
             }, {
-            data: "id", // Usaremos el ID para las acciones
+            data: "id", 
             render: function(data, type, row) {
                 return `
                         <a href="<?= site_url('Clientes/read/') ?>${data}" class="btn btn-sm btn-primary">Read</a>
@@ -66,14 +66,13 @@ $(document).ready(function() {
                         <a href="#" class="btn btn-sm btn-danger" onclick="confirmDelete(${data})">Delete</a>
                     `;
             },
-            orderable: false, // Deshabilitar orden en esta columna
-            searchable: false // Deshabilitar búsqueda en esta columna
+            orderable: false, 
+            searchable: false 
         }]
     });
 
 });
 
-// Función para mostrar SweetAlert antes de borrar
 function confirmDelete(id) {
     Swal.fire({
         title: '¿Estás seguro?',

@@ -9,7 +9,8 @@ foreach ($non_pk as $row) {
     if (isset($_POST['field_' . $row['column_name']]) && isset($_POST['generate'])) //meedun code selected filed
     {
         if ($row["data_type"] == 'text') {
-            $string .= "\n\t <div class=\"form-group\">
+            $string .= "
+            \n\t <div class=\"form-group\">
                         <label for=\"" . $row["column_name"] . "\">" . label($row["column_name"]) . "
                             <?php echo ('" . $row["column_name"] . "') ?></label>
                         <textarea class=\"form-control\" rows=\"3\" name=\"" . $row["column_name"] . "\" id=\"" . $row["column_name"] . "\"
@@ -19,7 +20,8 @@ foreach ($non_pk as $row) {
                                 <?php endif; ?>
                     </div>";
         } elseif (in_array($row["data_type"], ['date', 'datetime'])) {
-            $string .= "\n\t <div class=\"form-group\">
+            $string .= "
+            \n\t <div class=\"form-group\">
             <label for=\"" . $row["column_name"] . "\">" . label($row["column_name"]) . "
                 <?php echo ('" . $row["column_name"] . "') ?></label>
             <input type=\"text\" class=\"form-control\" autocomplete=\"off\" name=\"" . $row["column_name"] . "\" id=\"" . $row["column_name"] . "\"
@@ -34,7 +36,8 @@ foreach ($non_pk as $row) {
                                 <?php endif; ?>
         </div>";
         } elseif ($row["data_type"] == 'varchar' && $row["column_name"] == 'file') {
-            $string .= "\n\t<div class=\"form-group\">
+            $string .= "
+            \n\t<div class=\"form-group\">
             <label for=\"" . $row["column_name"] . "\">" . label($row["column_name"]) . "</label>
             <input type=\"file\" class=\"form-control\" autocomplete=\"off\" name=\"" . $row["column_name"] . "\" id=\"" . $row["column_name"] . "\"
                 placeholder=\"" . label($row["column_name"]) . "\" />
@@ -43,7 +46,8 @@ foreach ($non_pk as $row) {
             <?php endif; ?>
         </div>";
         } elseif (in_array($row["data_type"], ['varchar'])) {
-            $string .= "\n\t<div class=\"form-group\">
+            $string .= "
+            \n\t<div class=\"form-group\">
             <label for=\"" . $row["column_name"] . "\">" . label($row["column_name"]) . "</label>
             <input type=\"text\" class=\"form-control\" autocomplete=\"off\" name=\"" . $row["column_name"] . "\" id=\"" . $row["column_name"] . "\"
                 placeholder=\"" . label($row["column_name"]) . "\" value=\"<?php echo \$data['" . $row["column_name"] . "']; ?>\" />
@@ -52,26 +56,26 @@ foreach ($non_pk as $row) {
             <?php endif; ?>
         </div>";
         } elseif (in_array($row["data_type"], ['enum'])) {
-            $string .= "\n\t<div class=\"form-group\">
+            $string .= "
+            \n\t<div class=\"form-group\">
             <label for=\"" . $row["column_name"] . "\">" . label($row["column_name"]) . "</label>
             <select class=\"form-control\" autocomplete=\"off\" name=\"" . $row["column_name"] . "\" id=\"" . $row["column_name"] . "\">
             <option selected>Open this select menu</option>";
 
-            // Extraer los valores del ENUM dinámicamente
             if (preg_match("/^enum\((.*)\)$/", $row["column_type"], $matches)) {
                 $enumValues = explode(",", str_replace("'", "", $matches[1]));
                 foreach ($enumValues as $value) {
                     $string .= "<option value=\"$value\" <?php echo (isset(\$data['" . $row["column_name"] . "']) && \$data['" . $row["column_name"] . "'] === '$value') ? 'selected' : ''; ?>>$value</option>\n";
                 }
             }
-
             $string .= "</select>
                  <?php if (isset(session('errors')['" . $row["column_name"] . "'])): ?> 
                      <span class=\"text-danger\"><?= session('errors')['" . $row["column_name"] . "'] ?></span> 
                  <?php endif; ?>
             </div>";
         } else {
-            $string .= "\n\t <div class=\"form-group\">
+            $string .= "
+            \n\t <div class=\"form-group\">
                         <label for=\"" . $row["data_type"] . "\">" . label($row["column_name"]) . "
                             <?php echo ('" . $row["column_name"] . "') ?></label>
                         <input type=\"text\" class=\"form-control\" autocomplete=\"off\" name=\"" . $row["column_name"] . "\" id=\"" . $row["column_name"] . "\"
@@ -87,21 +91,22 @@ foreach ($non_pk as $row) {
 
 
 
-    if (isset($_POST['generateall'])) //meedun code selected filed
-    {
+    if (isset($_POST['generateall'])) {
         if ($row["data_type"] == 'text') {
-            $string .= "\n\t <div class=\"form-group\">
+            $string .= "
+            \n\t <div class=\"form-group\">
                         <label for=\"" . $row["column_name"] . "\">" . label($row["column_name"]) . "
                             <?php echo ('" . $row["column_name"] . "') ?></label>
                         <textarea class=\"form-control\" rows=\"3\" name=\"" . $row["column_name"] . "\" id=\"" . $row["column_name"] . "\"
                             placeholder=\"" . label($row["column_name"]) . "\"><?php echo \$data['" . $row["column_name"] . "']; ?></textarea>
-                              <?php if (isset(session('errors')['" . $row["column_name"] . "'])): ?> 
+                            <?php if (isset(session('errors')['" . $row["column_name"] . "'])): ?> 
                                 <span class=\"text-danger\"><?= session('errors')['" . $row["column_name"] . "'] ?></span> 
                                 <?php endif; ?>
                     </div>";
-        } elseif ($row["data_type"] == 'DATE' || $row["data_type"] == 'DATETIME' || $row["data_type"] == 'TIMESTAMP') {
-            $string .= "\n\t <div class=\"form-group\">
-            <label for=\"" . $row["data_type"] . "\">" . label($row["column_name"]) . "
+        } elseif (in_array($row["data_type"], ['date', 'datetime'])) {
+            $string .= "
+            \n\t <div class=\"form-group\">
+            <label for=\"" . $row["column_name"] . "\">" . label($row["column_name"]) . "
                 <?php echo ('" . $row["column_name"] . "') ?></label>
             <input type=\"text\" class=\"form-control\" autocomplete=\"off\" name=\"" . $row["column_name"] . "\" id=\"" . $row["column_name"] . "\"
                 placeholder=\"" . label($row["column_name"]) . "\" value=\"<?php echo \$data['" . $row["column_name"] . "']; ?>\" autocomplete=\"off\"
@@ -114,11 +119,48 @@ foreach ($non_pk as $row) {
                                 <span class=\"text-danger\"><?= session('errors')['" . $row["column_name"] . "'] ?></span> 
                                 <?php endif; ?>
         </div>";
+        } elseif ($row["data_type"] == 'varchar' && $row["column_name"] == 'file') {
+            $string .= "
+            \n\t<div class=\"form-group\">
+            <label for=\"" . $row["column_name"] . "\">" . label($row["column_name"]) . "</label>
+            <input type=\"file\" class=\"form-control\" autocomplete=\"off\" name=\"" . $row["column_name"] . "\" id=\"" . $row["column_name"] . "\"
+                placeholder=\"" . label($row["column_name"]) . "\" />
+            <?php if (isset(session('errors')['" . $row["column_name"] . "'])): ?> 
+                <span class=\"text-danger\"><?= session('errors')['" . $row["column_name"] . "'] ?></span> 
+            <?php endif; ?>
+        </div>";
+        } elseif (in_array($row["data_type"], ['varchar'])) {
+            $string .= "
+            \n\t<div class=\"form-group\">
+            <label for=\"" . $row["column_name"] . "\">" . label($row["column_name"]) . "</label>
+            <input type=\"text\" class=\"form-control\" autocomplete=\"off\" name=\"" . $row["column_name"] . "\" id=\"" . $row["column_name"] . "\"
+                placeholder=\"" . label($row["column_name"]) . "\" value=\"<?php echo \$data['" . $row["column_name"] . "']; ?>\" />
+            <?php if (isset(session('errors')['" . $row["column_name"] . "'])): ?> 
+                <span class=\"text-danger\"><?= session('errors')['" . $row["column_name"] . "'] ?></span> 
+            <?php endif; ?>
+        </div>";
+        } elseif (in_array($row["data_type"], ['enum'])) {
+            $string .= "\n\t<div class=\"form-group\">
+            <label for=\"" . $row["column_name"] . "\">" . label($row["column_name"]) . "</label>
+            <select class=\"form-control\" autocomplete=\"off\" name=\"" . $row["column_name"] . "\" id=\"" . $row["column_name"] . "\">
+            <option selected>Open this select menu</option>";
+            if (preg_match("/^enum\((.*)\)$/", $row["column_type"], $matches)) {
+                $enumValues = explode(",", str_replace("'", "", $matches[1]));
+                foreach ($enumValues as $value) {
+                    $string .= "<option value=\"$value\" <?php echo (isset(\$data['" . $row["column_name"] . "']) && \$data['" . $row["column_name"] . "'] === '$value') ? 'selected' : ''; ?>>$value</option>\n";
+                }
+            }
+            $string .= "</select>
+                 <?php if (isset(session('errors')['" . $row["column_name"] . "'])): ?> 
+                     <span class=\"text-danger\"><?= session('errors')['" . $row["column_name"] . "'] ?></span> 
+                 <?php endif; ?>
+            </div>";
         } else {
-            $string .= "\n\t <div class=\"form-group\">
+            $string .= "
+            \n\t <div class=\"form-group\">
                         <label for=\"" . $row["data_type"] . "\">" . label($row["column_name"]) . "
                             <?php echo ('" . $row["column_name"] . "') ?></label>
-                        <input type=\"text\" class=\"form-control\" name=\"" . $row["column_name"] . "\" id=\"" . $row["column_name"] . "\"
+                        <input type=\"text\" class=\"form-control\" autocomplete=\"off\" name=\"" . $row["column_name"] . "\" id=\"" . $row["column_name"] . "\"
                             placeholder=\"" . label($row["column_name"]) . "\" value=\"<?php echo \$data['" . $row["column_name"] . "']; ?>\" />
                              <?php if (isset(session('errors')['" . $row["column_name"] . "'])): ?> 
                                 <span class=\"text-danger\"><?= session('errors')['" . $row["column_name"] . "'] ?></span> 
