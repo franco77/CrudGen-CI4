@@ -1,0 +1,1609 @@
+INFO - 2024-11-25 10:44:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-25 10:44:03 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: expenses/read/img/undraw_profile_1.svg]
+in APPPATH\Views\expenses\read_expenses.php on line 6.
+ 1 APPPATH\Views\expenses\read_expenses.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\expenses\\read_expenses.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\expenses\\read_expenses.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('expenses/read_expenses', [], true)
+ 5 APPPATH\Controllers\Expenses.php(100): view('expenses/read_expenses', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Expenses->read('img', 'undraw_profile_1.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expenses))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-25 10:44:03 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: expenses/read/img/undraw_profile_2.svg]
+in APPPATH\Views\expenses\read_expenses.php on line 6.
+ 1 APPPATH\Views\expenses\read_expenses.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\expenses\\read_expenses.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\expenses\\read_expenses.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('expenses/read_expenses', [], true)
+ 5 APPPATH\Controllers\Expenses.php(100): view('expenses/read_expenses', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Expenses->read('img', 'undraw_profile_2.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expenses))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-25 10:44:04 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: expenses/read/img/undraw_profile_3.svg]
+in APPPATH\Views\expenses\read_expenses.php on line 6.
+ 1 APPPATH\Views\expenses\read_expenses.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\expenses\\read_expenses.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\expenses\\read_expenses.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('expenses/read_expenses', [], true)
+ 5 APPPATH\Controllers\Expenses.php(100): view('expenses/read_expenses', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Expenses->read('img', 'undraw_profile_3.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expenses))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-25 10:44:04 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: expenses/read/img/undraw_profile.svg]
+in APPPATH\Views\expenses\read_expenses.php on line 6.
+ 1 APPPATH\Views\expenses\read_expenses.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\expenses\\read_expenses.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\expenses\\read_expenses.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('expenses/read_expenses', [], true)
+ 5 APPPATH\Controllers\Expenses.php(100): view('expenses/read_expenses', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Expenses->read('img', 'undraw_profile.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expenses))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-25 10:44:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 10:44:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 10:44:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 10:45:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 10:47:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 10:49:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 10:50:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 10:50:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 10:51:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 10:52:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-25 10:53:32 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: expenses/read/img/undraw_profile_1.svg]
+in APPPATH\Views\expenses\read_expenses.php on line 6.
+ 1 APPPATH\Views\expenses\read_expenses.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\expenses\\read_expenses.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\expenses\\read_expenses.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('expenses/read_expenses', [], true)
+ 5 APPPATH\Controllers\Expenses.php(95): view('expenses/read_expenses', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Expenses->read('img', 'undraw_profile_1.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expenses))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-25 10:53:33 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: expenses/read/img/undraw_profile_2.svg]
+in APPPATH\Views\expenses\read_expenses.php on line 6.
+ 1 APPPATH\Views\expenses\read_expenses.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\expenses\\read_expenses.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\expenses\\read_expenses.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('expenses/read_expenses', [], true)
+ 5 APPPATH\Controllers\Expenses.php(95): view('expenses/read_expenses', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Expenses->read('img', 'undraw_profile_2.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expenses))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-25 10:53:33 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: expenses/read/img/undraw_profile_3.svg]
+in APPPATH\Views\expenses\read_expenses.php on line 6.
+ 1 APPPATH\Views\expenses\read_expenses.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\expenses\\read_expenses.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\expenses\\read_expenses.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('expenses/read_expenses', [], true)
+ 5 APPPATH\Controllers\Expenses.php(95): view('expenses/read_expenses', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Expenses->read('img', 'undraw_profile_3.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expenses))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-25 10:53:33 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: expenses/read/img/undraw_profile.svg]
+in APPPATH\Views\expenses\read_expenses.php on line 6.
+ 1 APPPATH\Views\expenses\read_expenses.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\expenses\\read_expenses.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\expenses\\read_expenses.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('expenses/read_expenses', [], true)
+ 5 APPPATH\Controllers\Expenses.php(95): view('expenses/read_expenses', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Expenses->read('img', 'undraw_profile.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expenses))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-25 10:53:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 10:53:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-25 10:53:36 --> ParseError: syntax error, unexpected identifier "created_at", expecting "]"
+[Method: GET, Route: expenses/update/2]
+in APPPATH\Views\expenses\form_expenses.php on line 31.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('expenses/form_expenses', [], true)
+ 3 APPPATH\Controllers\Expenses.php(148): view('expenses/form_expenses', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Expenses->update('2')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expenses))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-25 10:53:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 10:58:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 10:58:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 10:58:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 10:58:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 11:00:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 11:00:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 11:00:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 11:00:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-25 11:00:34 --> ParseError: syntax error, unexpected identifier "created_at", expecting "]"
+[Method: GET, Route: expenses/update/2]
+in APPPATH\Views\expenses\form_expenses.php on line 31.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('expenses/form_expenses', [], true)
+ 3 APPPATH\Controllers\Expenses.php(148): view('expenses/form_expenses', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Expenses->update('2')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expenses))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-25 11:01:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-25 11:01:24 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: expenses/read/img/undraw_profile_1.svg]
+in APPPATH\Views\expenses\read_expenses.php on line 6.
+ 1 APPPATH\Views\expenses\read_expenses.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\expenses\\read_expenses.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\expenses\\read_expenses.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('expenses/read_expenses', [], true)
+ 5 APPPATH\Controllers\Expenses.php(95): view('expenses/read_expenses', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Expenses->read('img', 'undraw_profile_1.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expenses))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-25 11:01:24 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: expenses/read/img/undraw_profile_2.svg]
+in APPPATH\Views\expenses\read_expenses.php on line 6.
+ 1 APPPATH\Views\expenses\read_expenses.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\expenses\\read_expenses.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\expenses\\read_expenses.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('expenses/read_expenses', [], true)
+ 5 APPPATH\Controllers\Expenses.php(95): view('expenses/read_expenses', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Expenses->read('img', 'undraw_profile_2.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expenses))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-25 11:01:24 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: expenses/read/img/undraw_profile.svg]
+in APPPATH\Views\expenses\read_expenses.php on line 6.
+ 1 APPPATH\Views\expenses\read_expenses.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\expenses\\read_expenses.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\expenses\\read_expenses.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('expenses/read_expenses', [], true)
+ 5 APPPATH\Controllers\Expenses.php(95): view('expenses/read_expenses', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Expenses->read('img', 'undraw_profile.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expenses))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-25 11:01:24 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: expenses/read/img/undraw_profile_3.svg]
+in APPPATH\Views\expenses\read_expenses.php on line 6.
+ 1 APPPATH\Views\expenses\read_expenses.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\expenses\\read_expenses.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\expenses\\read_expenses.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('expenses/read_expenses', [], true)
+ 5 APPPATH\Controllers\Expenses.php(95): view('expenses/read_expenses', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Expenses->read('img', 'undraw_profile_3.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expenses))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-25 11:01:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 11:01:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-25 11:01:27 --> ParseError: syntax error, unexpected identifier "created_at", expecting "]"
+[Method: GET, Route: expenses/update/2]
+in APPPATH\Views\expenses\form_expenses.php on line 31.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('expenses/form_expenses', [], true)
+ 3 APPPATH\Controllers\Expenses.php(148): view('expenses/form_expenses', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Expenses->update('2')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expenses))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-25 11:01:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-25 11:01:30 --> ParseError: syntax error, unexpected identifier "created_at", expecting "]"
+[Method: GET, Route: expenses/create]
+in APPPATH\Views\expenses\form_expenses.php on line 31.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('expenses/form_expenses', [], true)
+ 3 APPPATH\Controllers\Expenses.php(114): view('expenses/form_expenses', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Expenses->create()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expenses))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-25 11:01:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 11:01:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-25 11:01:44 --> ParseError: syntax error, unexpected identifier "created_at", expecting "]"
+[Method: GET, Route: expenses/update/2]
+in APPPATH\Views\expenses\form_expenses.php on line 31.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('expenses/form_expenses', [], true)
+ 3 APPPATH\Controllers\Expenses.php(148): view('expenses/form_expenses', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Expenses->update('2')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expenses))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-25 11:02:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 11:02:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 11:02:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 11:02:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 11:02:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 11:16:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-25 11:16:20 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: expenses/read/img/undraw_profile_2.svg]
+in APPPATH\Views\expenses\read_expenses.php on line 6.
+ 1 APPPATH\Views\expenses\read_expenses.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\expenses\\read_expenses.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\expenses\\read_expenses.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('expenses/read_expenses', [], true)
+ 5 APPPATH\Controllers\Expenses.php(99): view('expenses/read_expenses', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Expenses->read('img', 'undraw_profile_2.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expenses))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-25 11:16:20 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: expenses/read/img/undraw_profile_1.svg]
+in APPPATH\Views\expenses\read_expenses.php on line 6.
+ 1 APPPATH\Views\expenses\read_expenses.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\expenses\\read_expenses.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\expenses\\read_expenses.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('expenses/read_expenses', [], true)
+ 5 APPPATH\Controllers\Expenses.php(99): view('expenses/read_expenses', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Expenses->read('img', 'undraw_profile_1.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expenses))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-25 11:16:20 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: expenses/read/img/undraw_profile.svg]
+in APPPATH\Views\expenses\read_expenses.php on line 6.
+ 1 APPPATH\Views\expenses\read_expenses.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\expenses\\read_expenses.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\expenses\\read_expenses.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('expenses/read_expenses', [], true)
+ 5 APPPATH\Controllers\Expenses.php(99): view('expenses/read_expenses', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Expenses->read('img', 'undraw_profile.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expenses))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-25 11:16:20 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: expenses/read/img/undraw_profile_3.svg]
+in APPPATH\Views\expenses\read_expenses.php on line 6.
+ 1 APPPATH\Views\expenses\read_expenses.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\expenses\\read_expenses.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\expenses\\read_expenses.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('expenses/read_expenses', [], true)
+ 5 APPPATH\Controllers\Expenses.php(99): view('expenses/read_expenses', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Expenses->read('img', 'undraw_profile_3.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expenses))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-25 11:16:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 11:16:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 11:16:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 11:16:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 11:16:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 11:16:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 11:16:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 11:16:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 11:38:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 11:38:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 11:38:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-25 11:49:02 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: expenses/read/img/undraw_profile_2.svg]
+in APPPATH\Views\expenses\read_expenses.php on line 6.
+ 1 APPPATH\Views\expenses\read_expenses.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\expenses\\read_expenses.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\expenses\\read_expenses.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('expenses/read_expenses', [], true)
+ 5 APPPATH\Controllers\Expenses.php(99): view('expenses/read_expenses', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Expenses->read('img', 'undraw_profile_2.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expenses))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-25 11:49:02 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: expenses/read/img/undraw_profile_1.svg]
+in APPPATH\Views\expenses\read_expenses.php on line 6.
+ 1 APPPATH\Views\expenses\read_expenses.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\expenses\\read_expenses.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\expenses\\read_expenses.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('expenses/read_expenses', [], true)
+ 5 APPPATH\Controllers\Expenses.php(99): view('expenses/read_expenses', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Expenses->read('img', 'undraw_profile_1.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expenses))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-25 11:49:02 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: expenses/read/img/undraw_profile_3.svg]
+in APPPATH\Views\expenses\read_expenses.php on line 6.
+ 1 APPPATH\Views\expenses\read_expenses.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\expenses\\read_expenses.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\expenses\\read_expenses.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('expenses/read_expenses', [], true)
+ 5 APPPATH\Controllers\Expenses.php(99): view('expenses/read_expenses', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Expenses->read('img', 'undraw_profile_3.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expenses))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-25 11:49:02 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: expenses/read/img/undraw_profile.svg]
+in APPPATH\Views\expenses\read_expenses.php on line 6.
+ 1 APPPATH\Views\expenses\read_expenses.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\expenses\\read_expenses.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\expenses\\read_expenses.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('expenses/read_expenses', [], true)
+ 5 APPPATH\Controllers\Expenses.php(99): view('expenses/read_expenses', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Expenses->read('img', 'undraw_profile.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expenses))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-25 11:49:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 11:56:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 11:56:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 11:56:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 12:10:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 12:10:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 12:10:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 12:17:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 12:18:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 12:18:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 12:18:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 12:19:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-25 12:19:28 --> ErrorException: Undefined array key 1
+[Method: GET, Route: expenses]
+in APPPATH\Views\layout\sidebar.php on line 15.
+ 1 APPPATH\Views\layout\sidebar.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\layout\\sidebar.php', 15)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\layout\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(487): CodeIgniter\View\View->render('layout/sidebar', null, true)
+ 5 APPPATH\Views\layout\template.php(5): CodeIgniter\View\View->include('layout/sidebar')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\layout\\template.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layout/template', [], true)
+ 9 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('expenses/index_expenses', [], true)
+10 APPPATH\Controllers\Expenses.php(41): view('expenses/index_expenses', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Expenses->index()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expenses))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-25 12:20:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 12:20:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 12:22:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 12:22:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 12:22:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 12:46:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 12:50:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 12:57:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 12:58:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 12:58:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 12:58:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 12:59:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 13:02:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 13:02:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 13:03:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 13:03:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-25 13:03:06 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: expenses/read/1]
+in APPPATH\Views\expenses\read_expenses.php on line 6.
+ 1 APPPATH\Views\expenses\read_expenses.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\expenses\\read_expenses.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\expenses\\read_expenses.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('expenses/read_expenses', [], true)
+ 5 APPPATH\Controllers\Expenses.php(99): view('expenses/read_expenses', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Expenses->read('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expenses))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-25 13:03:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 13:03:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-25 13:03:19 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: expenses/read/1]
+in APPPATH\Views\expenses\read_expenses.php on line 6.
+ 1 APPPATH\Views\expenses\read_expenses.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\expenses\\read_expenses.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\expenses\\read_expenses.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('expenses/read_expenses', [], true)
+ 5 APPPATH\Controllers\Expenses.php(99): view('expenses/read_expenses', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Expenses->read('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expenses))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-25 13:03:43 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: expenses/read/1]
+in APPPATH\Views\expenses\read_expenses.php on line 6.
+ 1 APPPATH\Views\expenses\read_expenses.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\expenses\\read_expenses.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\expenses\\read_expenses.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('expenses/read_expenses', [], true)
+ 5 APPPATH\Controllers\Expenses.php(99): view('expenses/read_expenses', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Expenses->read('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expenses))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-25 13:03:46 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: expenses/read/1]
+in APPPATH\Views\expenses\read_expenses.php on line 6.
+ 1 APPPATH\Views\expenses\read_expenses.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\expenses\\read_expenses.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\expenses\\read_expenses.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('expenses/read_expenses', [], true)
+ 5 APPPATH\Controllers\Expenses.php(99): view('expenses/read_expenses', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Expenses->read('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expenses))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-25 13:03:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 13:03:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-25 13:03:55 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: expenses/read/1]
+in APPPATH\Views\expenses\read_expenses.php on line 6.
+ 1 APPPATH\Views\expenses\read_expenses.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\expenses\\read_expenses.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\expenses\\read_expenses.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('expenses/read_expenses', [], true)
+ 5 APPPATH\Controllers\Expenses.php(99): view('expenses/read_expenses', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Expenses->read('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expenses))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-25 13:03:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 13:03:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-25 13:04:01 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: expenses/read/img/undraw_profile_2.svg]
+in APPPATH\Views\expenses\read_expenses.php on line 6.
+ 1 APPPATH\Views\expenses\read_expenses.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\expenses\\read_expenses.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\expenses\\read_expenses.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('expenses/read_expenses', [], true)
+ 5 APPPATH\Controllers\Expenses.php(99): view('expenses/read_expenses', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Expenses->read('img', 'undraw_profile_2.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expenses))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-25 13:04:01 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: expenses/read/img/undraw_profile_1.svg]
+in APPPATH\Views\expenses\read_expenses.php on line 6.
+ 1 APPPATH\Views\expenses\read_expenses.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\expenses\\read_expenses.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\expenses\\read_expenses.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('expenses/read_expenses', [], true)
+ 5 APPPATH\Controllers\Expenses.php(99): view('expenses/read_expenses', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Expenses->read('img', 'undraw_profile_1.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expenses))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-25 13:04:01 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: expenses/read/img/undraw_profile.svg]
+in APPPATH\Views\expenses\read_expenses.php on line 6.
+ 1 APPPATH\Views\expenses\read_expenses.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\expenses\\read_expenses.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\expenses\\read_expenses.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('expenses/read_expenses', [], true)
+ 5 APPPATH\Controllers\Expenses.php(99): view('expenses/read_expenses', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Expenses->read('img', 'undraw_profile.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expenses))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-25 13:04:01 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: expenses/read/img/undraw_profile_3.svg]
+in APPPATH\Views\expenses\read_expenses.php on line 6.
+ 1 APPPATH\Views\expenses\read_expenses.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\expenses\\read_expenses.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\expenses\\read_expenses.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('expenses/read_expenses', [], true)
+ 5 APPPATH\Controllers\Expenses.php(99): view('expenses/read_expenses', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Expenses->read('img', 'undraw_profile_3.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expenses))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-25 13:06:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 13:06:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 13:06:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 13:06:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 13:06:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 13:06:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 13:06:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 13:06:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-25 13:06:40 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: Incomes/read/img/undraw_profile_2.svg]
+in APPPATH\Views\incomes\read_incomes.php on line 6.
+ 1 APPPATH\Views\incomes\read_incomes.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\incomes\\read_incomes.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\incomes\\read_incomes.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('incomes/read_incomes', [], true)
+ 5 APPPATH\Controllers\Incomes.php(99): view('incomes/read_incomes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Incomes->read('img', 'undraw_profile_2.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Incomes))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-25 13:06:40 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: Incomes/read/img/undraw_profile_1.svg]
+in APPPATH\Views\incomes\read_incomes.php on line 6.
+ 1 APPPATH\Views\incomes\read_incomes.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\incomes\\read_incomes.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\incomes\\read_incomes.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('incomes/read_incomes', [], true)
+ 5 APPPATH\Controllers\Incomes.php(99): view('incomes/read_incomes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Incomes->read('img', 'undraw_profile_1.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Incomes))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-25 13:06:40 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: Incomes/read/img/undraw_profile.svg]
+in APPPATH\Views\incomes\read_incomes.php on line 6.
+ 1 APPPATH\Views\incomes\read_incomes.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\incomes\\read_incomes.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\incomes\\read_incomes.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('incomes/read_incomes', [], true)
+ 5 APPPATH\Controllers\Incomes.php(99): view('incomes/read_incomes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Incomes->read('img', 'undraw_profile.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Incomes))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-25 13:06:40 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: Incomes/read/img/undraw_profile_3.svg]
+in APPPATH\Views\incomes\read_incomes.php on line 6.
+ 1 APPPATH\Views\incomes\read_incomes.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\incomes\\read_incomes.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\incomes\\read_incomes.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('incomes/read_incomes', [], true)
+ 5 APPPATH\Controllers\Incomes.php(99): view('incomes/read_incomes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Incomes->read('img', 'undraw_profile_3.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Incomes))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-25 13:06:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-25 13:37:15 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: Incomes/read/img/undraw_profile_1.svg]
+in APPPATH\Views\incomes\read_incomes.php on line 6.
+ 1 APPPATH\Views\incomes\read_incomes.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\incomes\\read_incomes.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\incomes\\read_incomes.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('incomes/read_incomes', [], true)
+ 5 APPPATH\Controllers\Incomes.php(99): view('incomes/read_incomes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Incomes->read('img', 'undraw_profile_1.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Incomes))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-25 13:37:15 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: Incomes/read/img/undraw_profile_2.svg]
+in APPPATH\Views\incomes\read_incomes.php on line 6.
+ 1 APPPATH\Views\incomes\read_incomes.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\incomes\\read_incomes.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\incomes\\read_incomes.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('incomes/read_incomes', [], true)
+ 5 APPPATH\Controllers\Incomes.php(99): view('incomes/read_incomes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Incomes->read('img', 'undraw_profile_2.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Incomes))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-25 13:37:15 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: Incomes/read/img/undraw_profile_3.svg]
+in APPPATH\Views\incomes\read_incomes.php on line 6.
+ 1 APPPATH\Views\incomes\read_incomes.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\incomes\\read_incomes.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\incomes\\read_incomes.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('incomes/read_incomes', [], true)
+ 5 APPPATH\Controllers\Incomes.php(99): view('incomes/read_incomes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Incomes->read('img', 'undraw_profile_3.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Incomes))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-25 13:37:16 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: Incomes/read/img/undraw_profile.svg]
+in APPPATH\Views\incomes\read_incomes.php on line 6.
+ 1 APPPATH\Views\incomes\read_incomes.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\incomes\\read_incomes.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\incomes\\read_incomes.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('incomes/read_incomes', [], true)
+ 5 APPPATH\Controllers\Incomes.php(99): view('incomes/read_incomes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Incomes->read('img', 'undraw_profile.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Incomes))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-25 13:37:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 13:37:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 13:37:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 13:37:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 13:37:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 13:37:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 13:37:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 13:37:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-25 13:38:41 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: Incomes/read/img/undraw_profile_1.svg]
+in APPPATH\Views\incomes\read_incomes.php on line 6.
+ 1 APPPATH\Views\incomes\read_incomes.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\incomes\\read_incomes.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\incomes\\read_incomes.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('incomes/read_incomes', [], true)
+ 5 APPPATH\Controllers\Incomes.php(99): view('incomes/read_incomes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Incomes->read('img', 'undraw_profile_1.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Incomes))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-25 13:38:41 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: Incomes/read/img/undraw_profile_2.svg]
+in APPPATH\Views\incomes\read_incomes.php on line 6.
+ 1 APPPATH\Views\incomes\read_incomes.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\incomes\\read_incomes.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\incomes\\read_incomes.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('incomes/read_incomes', [], true)
+ 5 APPPATH\Controllers\Incomes.php(99): view('incomes/read_incomes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Incomes->read('img', 'undraw_profile_2.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Incomes))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-25 13:38:41 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: Incomes/read/img/undraw_profile.svg]
+in APPPATH\Views\incomes\read_incomes.php on line 6.
+ 1 APPPATH\Views\incomes\read_incomes.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\incomes\\read_incomes.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\incomes\\read_incomes.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('incomes/read_incomes', [], true)
+ 5 APPPATH\Controllers\Incomes.php(99): view('incomes/read_incomes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Incomes->read('img', 'undraw_profile.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Incomes))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-25 13:38:41 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: Incomes/read/img/undraw_profile_3.svg]
+in APPPATH\Views\incomes\read_incomes.php on line 6.
+ 1 APPPATH\Views\incomes\read_incomes.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\incomes\\read_incomes.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\incomes\\read_incomes.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('incomes/read_incomes', [], true)
+ 5 APPPATH\Controllers\Incomes.php(99): view('incomes/read_incomes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Incomes->read('img', 'undraw_profile_3.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Incomes))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-25 13:38:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 13:38:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 13:38:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 13:38:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 13:39:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 13:53:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 13:53:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 13:53:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 13:53:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 13:53:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 13:53:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 13:53:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 13:57:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 13:57:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 13:57:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 14:10:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 14:27:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 14:37:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-11-25 14:38:28 --> mysqli_sql_exception: Column 'nombre' cannot be null in C:\laragon\www\codeigniter4-crud\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\codeigniter4-crud\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `cl...', 0)
+#1 C:\laragon\www\codeigniter4-crud\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cl...')
+#2 C:\laragon\www\codeigniter4-crud\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cl...')
+#3 C:\laragon\www\codeigniter4-crud\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cl...', Array, false)
+#4 C:\laragon\www\codeigniter4-crud\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\codeigniter4-crud\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\codeigniter4-crud\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\codeigniter4-crud\system\BaseModel.php(751): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\codeigniter4-crud\app\Controllers\Clientes.php(134): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\codeigniter4-crud\system\CodeIgniter.php(933): App\Controllers\Clientes->create_action()
+#10 C:\laragon\www\codeigniter4-crud\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#11 C:\laragon\www\codeigniter4-crud\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\codeigniter4-crud\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\codeigniter4-crud\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\laragon\www\codeigniter4-crud\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 {main}
+CRITICAL - 2024-11-25 14:38:28 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'nombre' cannot be null
+[Method: GET, Route: Clientes/create_action]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `clientes` (`id`, `nombre`, `email`, `telefono`, `direccion`, `fecha_nacimiento`) VALUES (:id:, :nombre:, :email:, :telefono:, :direccion:, :fecha_nacimiento:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Clientes.php(134): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->create_action()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-25 14:38:28 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'nombre' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `clientes` (`id`, `nombre`, `email`, `telefono`, `direccion`, `fecha_nacimiento`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `clientes` (`id`, `nombre`, `email`, `telefono`, `direccion`, `fecha_nacimiento`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `clientes` (`id`, `nombre`, `email`, `telefono`, `direccion`, `fecha_nacimiento`) VALUES (:id:, :nombre:, :email:, :telefono:, :direccion:, :fecha_nacimiento:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\Clientes.php(134): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->create_action()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-25 14:38:28 --> [Caused by] mysqli_sql_exception: Column 'nombre' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `clientes` (`id`, `nombre`, `email`, `telefono`, `direccion`, `fecha_nacimiento`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `clientes` (`id`, `nombre`, `email`, `telefono`, `direccion`, `fecha_nacimiento`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `clientes` (`id`, `nombre`, `email`, `telefono`, `direccion`, `fecha_nacimiento`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `clientes` (`id`, `nombre`, `email`, `telefono`, `direccion`, `fecha_nacimiento`) VALUES (:id:, :nombre:, :email:, :telefono:, :direccion:, :fecha_nacimiento:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Clientes.php(134): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->create_action()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-11-25 14:42:56 --> mysqli_sql_exception: Column 'nombre' cannot be null in C:\laragon\www\codeigniter4-crud\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\codeigniter4-crud\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `cl...', 0)
+#1 C:\laragon\www\codeigniter4-crud\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cl...')
+#2 C:\laragon\www\codeigniter4-crud\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cl...')
+#3 C:\laragon\www\codeigniter4-crud\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cl...', Array, false)
+#4 C:\laragon\www\codeigniter4-crud\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\codeigniter4-crud\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\codeigniter4-crud\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\codeigniter4-crud\system\BaseModel.php(751): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\codeigniter4-crud\app\Controllers\Clientes.php(134): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\codeigniter4-crud\system\CodeIgniter.php(933): App\Controllers\Clientes->create_action()
+#10 C:\laragon\www\codeigniter4-crud\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#11 C:\laragon\www\codeigniter4-crud\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\codeigniter4-crud\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\codeigniter4-crud\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\laragon\www\codeigniter4-crud\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 {main}
+CRITICAL - 2024-11-25 14:42:56 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'nombre' cannot be null
+[Method: GET, Route: Clientes/create_action]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `clientes` (`id`, `nombre`, `email`, `telefono`, `direccion`, `fecha_nacimiento`) VALUES (:id:, :nombre:, :email:, :telefono:, :direccion:, :fecha_nacimiento:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Clientes.php(134): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->create_action()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-25 14:42:56 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'nombre' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `clientes` (`id`, `nombre`, `email`, `telefono`, `direccion`, `fecha_nacimiento`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `clientes` (`id`, `nombre`, `email`, `telefono`, `direccion`, `fecha_nacimiento`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `clientes` (`id`, `nombre`, `email`, `telefono`, `direccion`, `fecha_nacimiento`) VALUES (:id:, :nombre:, :email:, :telefono:, :direccion:, :fecha_nacimiento:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\Clientes.php(134): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->create_action()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-25 14:42:56 --> [Caused by] mysqli_sql_exception: Column 'nombre' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `clientes` (`id`, `nombre`, `email`, `telefono`, `direccion`, `fecha_nacimiento`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `clientes` (`id`, `nombre`, `email`, `telefono`, `direccion`, `fecha_nacimiento`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `clientes` (`id`, `nombre`, `email`, `telefono`, `direccion`, `fecha_nacimiento`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `clientes` (`id`, `nombre`, `email`, `telefono`, `direccion`, `fecha_nacimiento`) VALUES (:id:, :nombre:, :email:, :telefono:, :direccion:, :fecha_nacimiento:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Clientes.php(134): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->create_action()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-25 14:43:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 14:43:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 14:43:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 15:12:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-25 15:12:01 --> ErrorException: Undefined variable $validation
+[Method: POST, Route: Clientes/create_action]
+in APPPATH\Controllers\Clientes.php on line 125.
+ 1 APPPATH\Controllers\Clientes.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'C:\\laragon\\www\\codeigniter4-crud\\app\\Controllers\\Clientes.php', 125)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->create_action()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-25 15:12:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 15:12:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-25 15:12:36 --> ErrorException: Undefined variable $validation
+[Method: POST, Route: Clientes/create_action]
+in APPPATH\Controllers\Clientes.php on line 125.
+ 1 APPPATH\Controllers\Clientes.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'C:\\laragon\\www\\codeigniter4-crud\\app\\Controllers\\Clientes.php', 125)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->create_action()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-25 15:16:16 --> ErrorException: Undefined variable $validation
+[Method: POST, Route: Clientes/create_action]
+in APPPATH\Controllers\Clientes.php on line 125.
+ 1 APPPATH\Controllers\Clientes.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'C:\\laragon\\www\\codeigniter4-crud\\app\\Controllers\\Clientes.php', 125)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->create_action()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-25 15:16:44 --> ErrorException: Undefined variable $validation
+[Method: POST, Route: Clientes/create_action]
+in APPPATH\Controllers\Clientes.php on line 125.
+ 1 APPPATH\Controllers\Clientes.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'C:\\laragon\\www\\codeigniter4-crud\\app\\Controllers\\Clientes.php', 125)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->create_action()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-25 15:17:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 15:17:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 15:17:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-25 15:18:00 --> ErrorException: Undefined variable $validation
+[Method: POST, Route: Clientes/create_action]
+in APPPATH\Controllers\Clientes.php on line 125.
+ 1 APPPATH\Controllers\Clientes.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'C:\\laragon\\www\\codeigniter4-crud\\app\\Controllers\\Clientes.php', 125)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->create_action()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-25 15:25:38 --> ParseError: Unclosed '[' does not match ')'
+[Method: GET, Route: Clientes]
+in APPPATH\Controllers\Clientes.php on line 203.
+ 1 SYSTEMPATH\Router\Router.php(563): CodeIgniter\Router\AutoRouter->getRoute('Clientes', 'GET')
+ 2 SYSTEMPATH\Router\Router.php(228): CodeIgniter\Router\Router->autoRoute('Clientes')
+ 3 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('Clientes')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-25 15:26:42 --> ParseError: Unclosed '[' on line 203 does not match ')'
+[Method: GET, Route: Clientes]
+in APPPATH\Controllers\Clientes.php on line 204.
+ 1 SYSTEMPATH\Router\Router.php(563): CodeIgniter\Router\AutoRouter->getRoute('Clientes', 'GET')
+ 2 SYSTEMPATH\Router\Router.php(228): CodeIgniter\Router\Router->autoRoute('Clientes')
+ 3 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('Clientes')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-25 15:27:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 15:33:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 15:33:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 15:33:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 15:34:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 15:34:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 15:34:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-25 15:37:40 --> ParseError: syntax error, unexpected string content ") ?>" + id;"
+[Method: GET, Route: Clientes]
+in APPPATH\Views\clientes\index_clientes.php on line 82.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('clientes/index_clientes', [], true)
+ 3 APPPATH\Controllers\Clientes.php(40): view('clientes/index_clientes', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-25 15:38:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 15:38:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 15:38:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 15:40:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 15:40:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 15:40:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 16:22:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 16:24:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 16:24:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 16:25:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 16:25:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 16:25:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 16:32:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 16:32:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 16:33:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 16:33:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 16:35:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 16:35:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 16:35:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 16:35:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 16:35:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 16:35:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 16:35:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 16:37:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 16:37:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 16:37:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 16:37:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 16:38:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 16:38:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 16:40:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 16:40:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 16:40:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-11-25 16:41:53 --> mysqli_sql_exception: Check constraint 'tareas_chk_1' is violated. in C:\laragon\www\codeigniter4-crud\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\codeigniter4-crud\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `ta...', 0)
+#1 C:\laragon\www\codeigniter4-crud\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ta...')
+#2 C:\laragon\www\codeigniter4-crud\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ta...')
+#3 C:\laragon\www\codeigniter4-crud\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ta...', Array, false)
+#4 C:\laragon\www\codeigniter4-crud\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\codeigniter4-crud\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\codeigniter4-crud\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\codeigniter4-crud\system\BaseModel.php(751): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\codeigniter4-crud\app\Controllers\Tareas.php(139): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\codeigniter4-crud\system\CodeIgniter.php(933): App\Controllers\Tareas->create_action()
+#10 C:\laragon\www\codeigniter4-crud\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tareas))
+#11 C:\laragon\www\codeigniter4-crud\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\codeigniter4-crud\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\codeigniter4-crud\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\laragon\www\codeigniter4-crud\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 {main}
+CRITICAL - 2024-11-25 16:41:53 --> CodeIgniter\Database\Exceptions\DatabaseException: Check constraint 'tareas_chk_1' is violated.
+[Method: POST, Route: Tareas/create_action]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tareas` (`id`, `descripcion`, `fecha_creacion`, `fecha_vencimiento`, `estado`) VALUES (:id:, :descripcion:, :fecha_creacion:, :fecha_vencimiento:, :estado:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Tareas.php(139): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Tareas->create_action()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tareas))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-25 16:41:53 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Check constraint 'tareas_chk_1' is violated.
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tareas` (`id`, `descripcion`, `fecha_creacion`, `fecha_vencimiento`, `estado`) VALUES (\'\', \'Lorem ipsum dolor sit amet consectetur adipiscing elit dictum turpis pellentesque, maecenas vulputate per eget nunc mi facilisi ligula donec, sociis pharetra magna blandit euismod felis senectus vivamus vitae. Libero netus nulla maecenas sollicitudin hendrerit molestie velit, mi curabitur egestas ante nec scelerisque potenti, mattis sem class primis hac habitasse. \', \'2024-11-25\', \'2024-11-26\', \'Activo\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tareas` (`id`, `descripcion`, `fecha_creacion`, `fecha_vencimiento`, `estado`) VALUES (\'\', \'Lorem ipsum dolor sit amet consectetur adipiscing elit dictum turpis pellentesque, maecenas vulputate per eget nunc mi facilisi ligula donec, sociis pharetra magna blandit euismod felis senectus vivamus vitae. Libero netus nulla maecenas sollicitudin hendrerit molestie velit, mi curabitur egestas ante nec scelerisque potenti, mattis sem class primis hac habitasse. \', \'2024-11-25\', \'2024-11-26\', \'Activo\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tareas` (`id`, `descripcion`, `fecha_creacion`, `fecha_vencimiento`, `estado`) VALUES (:id:, :descripcion:, :fecha_creacion:, :fecha_vencimiento:, :estado:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\Tareas.php(139): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Tareas->create_action()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tareas))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-25 16:41:53 --> [Caused by] mysqli_sql_exception: Check constraint 'tareas_chk_1' is violated.
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `tareas` (`id`, `descripcion`, `fecha_creacion`, `fecha_vencimiento`, `estado`) VALUES (\'\', \'Lorem ipsum dolor sit amet consectetur adipiscing elit dictum turpis pellentesque, maecenas vulputate per eget nunc mi facilisi ligula donec, sociis pharetra magna blandit euismod felis senectus vivamus vitae. Libero netus nulla maecenas sollicitudin hendrerit molestie velit, mi curabitur egestas ante nec scelerisque potenti, mattis sem class primis hac habitasse. \', \'2024-11-25\', \'2024-11-26\', \'Activo\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tareas` (`id`, `descripcion`, `fecha_creacion`, `fecha_vencimiento`, `estado`) VALUES (\'\', \'Lorem ipsum dolor sit amet consectetur adipiscing elit dictum turpis pellentesque, maecenas vulputate per eget nunc mi facilisi ligula donec, sociis pharetra magna blandit euismod felis senectus vivamus vitae. Libero netus nulla maecenas sollicitudin hendrerit molestie velit, mi curabitur egestas ante nec scelerisque potenti, mattis sem class primis hac habitasse. \', \'2024-11-25\', \'2024-11-26\', \'Activo\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tareas` (`id`, `descripcion`, `fecha_creacion`, `fecha_vencimiento`, `estado`) VALUES (\'\', \'Lorem ipsum dolor sit amet consectetur adipiscing elit dictum turpis pellentesque, maecenas vulputate per eget nunc mi facilisi ligula donec, sociis pharetra magna blandit euismod felis senectus vivamus vitae. Libero netus nulla maecenas sollicitudin hendrerit molestie velit, mi curabitur egestas ante nec scelerisque potenti, mattis sem class primis hac habitasse. \', \'2024-11-25\', \'2024-11-26\', \'Activo\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tareas` (`id`, `descripcion`, `fecha_creacion`, `fecha_vencimiento`, `estado`) VALUES (:id:, :descripcion:, :fecha_creacion:, :fecha_vencimiento:, :estado:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Tareas.php(139): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Tareas->create_action()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tareas))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-25 16:49:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-11-25 16:49:27 --> mysqli_sql_exception: Check constraint 'tareas_chk_1' is violated. in C:\laragon\www\codeigniter4-crud\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\codeigniter4-crud\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `ta...', 0)
+#1 C:\laragon\www\codeigniter4-crud\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ta...')
+#2 C:\laragon\www\codeigniter4-crud\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ta...')
+#3 C:\laragon\www\codeigniter4-crud\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ta...', Array, false)
+#4 C:\laragon\www\codeigniter4-crud\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\codeigniter4-crud\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\codeigniter4-crud\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\codeigniter4-crud\system\BaseModel.php(751): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\codeigniter4-crud\app\Controllers\Tareas.php(139): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\codeigniter4-crud\system\CodeIgniter.php(933): App\Controllers\Tareas->create_action()
+#10 C:\laragon\www\codeigniter4-crud\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tareas))
+#11 C:\laragon\www\codeigniter4-crud\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\codeigniter4-crud\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\codeigniter4-crud\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\laragon\www\codeigniter4-crud\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 {main}
+CRITICAL - 2024-11-25 16:49:27 --> CodeIgniter\Database\Exceptions\DatabaseException: Check constraint 'tareas_chk_1' is violated.
+[Method: POST, Route: Tareas/create_action]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tareas` (`id`, `descripcion`, `fecha_creacion`, `fecha_vencimiento`, `estado`) VALUES (:id:, :descripcion:, :fecha_creacion:, :fecha_vencimiento:, :estado:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Tareas.php(139): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Tareas->create_action()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tareas))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-25 16:49:27 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Check constraint 'tareas_chk_1' is violated.
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tareas` (`id`, `descripcion`, `fecha_creacion`, `fecha_vencimiento`, `estado`) VALUES (\'\', \'Lorem ipsum dolor sit amet consectetur adipiscing elit dictum turpis pellentesque, maecenas vulputate per eget nunc mi facilisi ligula donec, sociis pharetra magna blandit euismod felis senectus vivamus vitae.\', \'2024-11-25\', \'2024-11-25\', \'Activo\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tareas` (`id`, `descripcion`, `fecha_creacion`, `fecha_vencimiento`, `estado`) VALUES (\'\', \'Lorem ipsum dolor sit amet consectetur adipiscing elit dictum turpis pellentesque, maecenas vulputate per eget nunc mi facilisi ligula donec, sociis pharetra magna blandit euismod felis senectus vivamus vitae.\', \'2024-11-25\', \'2024-11-25\', \'Activo\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tareas` (`id`, `descripcion`, `fecha_creacion`, `fecha_vencimiento`, `estado`) VALUES (:id:, :descripcion:, :fecha_creacion:, :fecha_vencimiento:, :estado:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\Tareas.php(139): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Tareas->create_action()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tareas))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-25 16:49:27 --> [Caused by] mysqli_sql_exception: Check constraint 'tareas_chk_1' is violated.
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `tareas` (`id`, `descripcion`, `fecha_creacion`, `fecha_vencimiento`, `estado`) VALUES (\'\', \'Lorem ipsum dolor sit amet consectetur adipiscing elit dictum turpis pellentesque, maecenas vulputate per eget nunc mi facilisi ligula donec, sociis pharetra magna blandit euismod felis senectus vivamus vitae.\', \'2024-11-25\', \'2024-11-25\', \'Activo\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tareas` (`id`, `descripcion`, `fecha_creacion`, `fecha_vencimiento`, `estado`) VALUES (\'\', \'Lorem ipsum dolor sit amet consectetur adipiscing elit dictum turpis pellentesque, maecenas vulputate per eget nunc mi facilisi ligula donec, sociis pharetra magna blandit euismod felis senectus vivamus vitae.\', \'2024-11-25\', \'2024-11-25\', \'Activo\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tareas` (`id`, `descripcion`, `fecha_creacion`, `fecha_vencimiento`, `estado`) VALUES (\'\', \'Lorem ipsum dolor sit amet consectetur adipiscing elit dictum turpis pellentesque, maecenas vulputate per eget nunc mi facilisi ligula donec, sociis pharetra magna blandit euismod felis senectus vivamus vitae.\', \'2024-11-25\', \'2024-11-25\', \'Activo\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tareas` (`id`, `descripcion`, `fecha_creacion`, `fecha_vencimiento`, `estado`) VALUES (:id:, :descripcion:, :fecha_creacion:, :fecha_vencimiento:, :estado:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Tareas.php(139): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Tareas->create_action()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tareas))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-25 16:53:37 --> TypeError: trim(): Argument #1 ($string) must be of type string, null given
+[Method: GET, Route: tareas/create_action]
+in SYSTEMPATH\Validation\Validation.php on line 322.
+ 1 SYSTEMPATH\Validation\Validation.php(322): trim(null)
+ 2 SYSTEMPATH\Validation\Validation.php(204): CodeIgniter\Validation\Validation->processRules('descripcion', 'descripcion', null, [...], [...], 'descripcion')
+ 3 APPPATH\Controllers\Tareas.php(125): CodeIgniter\Validation\Validation->run()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Tareas->create_action()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tareas))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-25 16:53:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 16:53:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 16:54:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 16:54:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-11-25 16:54:13 --> mysqli_sql_exception: Check constraint 'tareas_chk_1' is violated. in C:\laragon\www\codeigniter4-crud\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\codeigniter4-crud\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `ta...', 0)
+#1 C:\laragon\www\codeigniter4-crud\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ta...')
+#2 C:\laragon\www\codeigniter4-crud\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ta...')
+#3 C:\laragon\www\codeigniter4-crud\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ta...', Array, false)
+#4 C:\laragon\www\codeigniter4-crud\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\codeigniter4-crud\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\codeigniter4-crud\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\codeigniter4-crud\system\BaseModel.php(751): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\codeigniter4-crud\app\Controllers\Tareas.php(139): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\codeigniter4-crud\system\CodeIgniter.php(933): App\Controllers\Tareas->create_action()
+#10 C:\laragon\www\codeigniter4-crud\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tareas))
+#11 C:\laragon\www\codeigniter4-crud\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\codeigniter4-crud\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\codeigniter4-crud\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\laragon\www\codeigniter4-crud\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 {main}
+CRITICAL - 2024-11-25 16:54:13 --> CodeIgniter\Database\Exceptions\DatabaseException: Check constraint 'tareas_chk_1' is violated.
+[Method: POST, Route: Tareas/create_action]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tareas` (`id`, `descripcion`, `fecha_creacion`, `fecha_vencimiento`, `estado`) VALUES (:id:, :descripcion:, :fecha_creacion:, :fecha_vencimiento:, :estado:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Tareas.php(139): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Tareas->create_action()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tareas))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-25 16:54:13 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Check constraint 'tareas_chk_1' is violated.
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tareas` (`id`, `descripcion`, `fecha_creacion`, `fecha_vencimiento`, `estado`) VALUES (\'\', \'kjhkjhkj\', \'2024-11-25\', \'2024-11-25\', \'Activo\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tareas` (`id`, `descripcion`, `fecha_creacion`, `fecha_vencimiento`, `estado`) VALUES (\'\', \'kjhkjhkj\', \'2024-11-25\', \'2024-11-25\', \'Activo\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tareas` (`id`, `descripcion`, `fecha_creacion`, `fecha_vencimiento`, `estado`) VALUES (:id:, :descripcion:, :fecha_creacion:, :fecha_vencimiento:, :estado:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\Tareas.php(139): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Tareas->create_action()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tareas))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-25 16:54:13 --> [Caused by] mysqli_sql_exception: Check constraint 'tareas_chk_1' is violated.
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `tareas` (`id`, `descripcion`, `fecha_creacion`, `fecha_vencimiento`, `estado`) VALUES (\'\', \'kjhkjhkj\', \'2024-11-25\', \'2024-11-25\', \'Activo\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tareas` (`id`, `descripcion`, `fecha_creacion`, `fecha_vencimiento`, `estado`) VALUES (\'\', \'kjhkjhkj\', \'2024-11-25\', \'2024-11-25\', \'Activo\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tareas` (`id`, `descripcion`, `fecha_creacion`, `fecha_vencimiento`, `estado`) VALUES (\'\', \'kjhkjhkj\', \'2024-11-25\', \'2024-11-25\', \'Activo\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tareas` (`id`, `descripcion`, `fecha_creacion`, `fecha_vencimiento`, `estado`) VALUES (:id:, :descripcion:, :fecha_creacion:, :fecha_vencimiento:, :estado:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Tareas.php(139): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Tareas->create_action()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tareas))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-25 16:57:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 16:57:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 16:57:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 16:58:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 16:58:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-25 16:58:28 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: Clientes/read/img/undraw_profile_1.svg]
+in APPPATH\Views\clientes\read_clientes.php on line 6.
+ 1 APPPATH\Views\clientes\read_clientes.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\clientes\\read_clientes.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\clientes\\read_clientes.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('clientes/read_clientes', [], true)
+ 5 APPPATH\Controllers\Clientes.php(99): view('clientes/read_clientes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->read('img', 'undraw_profile_1.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-25 16:58:28 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: Clientes/read/img/undraw_profile_2.svg]
+in APPPATH\Views\clientes\read_clientes.php on line 6.
+ 1 APPPATH\Views\clientes\read_clientes.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\clientes\\read_clientes.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\clientes\\read_clientes.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('clientes/read_clientes', [], true)
+ 5 APPPATH\Controllers\Clientes.php(99): view('clientes/read_clientes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->read('img', 'undraw_profile_2.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-25 16:58:28 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: Clientes/read/img/undraw_profile.svg]
+in APPPATH\Views\clientes\read_clientes.php on line 6.
+ 1 APPPATH\Views\clientes\read_clientes.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\clientes\\read_clientes.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\clientes\\read_clientes.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('clientes/read_clientes', [], true)
+ 5 APPPATH\Controllers\Clientes.php(99): view('clientes/read_clientes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->read('img', 'undraw_profile.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-25 16:58:28 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: Clientes/read/img/undraw_profile_3.svg]
+in APPPATH\Views\clientes\read_clientes.php on line 6.
+ 1 APPPATH\Views\clientes\read_clientes.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\clientes\\read_clientes.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\clientes\\read_clientes.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('clientes/read_clientes', [], true)
+ 5 APPPATH\Controllers\Clientes.php(99): view('clientes/read_clientes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->read('img', 'undraw_profile_3.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-25 16:58:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 16:58:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 16:58:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 16:58:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 16:58:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 17:01:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 17:01:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-11-25 17:01:21 --> mysqli_sql_exception: Check constraint 'tareas_chk_1' is violated. in C:\laragon\www\codeigniter4-crud\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\codeigniter4-crud\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `ta...', 0)
+#1 C:\laragon\www\codeigniter4-crud\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ta...')
+#2 C:\laragon\www\codeigniter4-crud\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ta...')
+#3 C:\laragon\www\codeigniter4-crud\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ta...', Array, false)
+#4 C:\laragon\www\codeigniter4-crud\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\codeigniter4-crud\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\codeigniter4-crud\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\codeigniter4-crud\system\BaseModel.php(751): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\codeigniter4-crud\app\Controllers\Tareas.php(133): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\codeigniter4-crud\system\CodeIgniter.php(933): App\Controllers\Tareas->create_action()
+#10 C:\laragon\www\codeigniter4-crud\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tareas))
+#11 C:\laragon\www\codeigniter4-crud\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\codeigniter4-crud\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\codeigniter4-crud\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\laragon\www\codeigniter4-crud\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 {main}
+CRITICAL - 2024-11-25 17:01:21 --> CodeIgniter\Database\Exceptions\DatabaseException: Check constraint 'tareas_chk_1' is violated.
+[Method: POST, Route: Tareas/create_action]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tareas` (`id`, `descripcion`, `fecha_creacion`, `fecha_vencimiento`, `estado`) VALUES (:id:, :descripcion:, :fecha_creacion:, :fecha_vencimiento:, :estado:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Tareas.php(133): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Tareas->create_action()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tareas))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-25 17:01:21 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Check constraint 'tareas_chk_1' is violated.
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tareas` (`id`, `descripcion`, `fecha_creacion`, `fecha_vencimiento`, `estado`) VALUES (\'\', \'bbnvbnvbn\', \'2024-11-25\', \'2024-11-25\', \'Activo\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tareas` (`id`, `descripcion`, `fecha_creacion`, `fecha_vencimiento`, `estado`) VALUES (\'\', \'bbnvbnvbn\', \'2024-11-25\', \'2024-11-25\', \'Activo\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tareas` (`id`, `descripcion`, `fecha_creacion`, `fecha_vencimiento`, `estado`) VALUES (:id:, :descripcion:, :fecha_creacion:, :fecha_vencimiento:, :estado:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\Tareas.php(133): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Tareas->create_action()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tareas))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-25 17:01:21 --> [Caused by] mysqli_sql_exception: Check constraint 'tareas_chk_1' is violated.
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `tareas` (`id`, `descripcion`, `fecha_creacion`, `fecha_vencimiento`, `estado`) VALUES (\'\', \'bbnvbnvbn\', \'2024-11-25\', \'2024-11-25\', \'Activo\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tareas` (`id`, `descripcion`, `fecha_creacion`, `fecha_vencimiento`, `estado`) VALUES (\'\', \'bbnvbnvbn\', \'2024-11-25\', \'2024-11-25\', \'Activo\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tareas` (`id`, `descripcion`, `fecha_creacion`, `fecha_vencimiento`, `estado`) VALUES (\'\', \'bbnvbnvbn\', \'2024-11-25\', \'2024-11-25\', \'Activo\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tareas` (`id`, `descripcion`, `fecha_creacion`, `fecha_vencimiento`, `estado`) VALUES (:id:, :descripcion:, :fecha_creacion:, :fecha_vencimiento:, :estado:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Tareas.php(133): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Tareas->create_action()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tareas))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-25 19:13:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 19:13:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 19:13:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 19:34:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 19:35:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 19:58:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-25 20:00:43 --> Error: Call to a member function isValid() on null
+[Method: POST, Route: Clientes/create_action]
+in APPPATH\Controllers\Clientes.php on line 128.
+ 1 APPPATH\Controllers\Clientes.php(144): App\Controllers\Clientes->uploadFile('file')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->create_action()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-25 20:02:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 20:02:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 20:02:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-25 20:03:01 --> Error: Call to a member function isValid() on null
+[Method: POST, Route: Clientes/create_action]
+in APPPATH\Controllers\Clientes.php on line 128.
+ 1 APPPATH\Controllers\Clientes.php(144): App\Controllers\Clientes->uploadFile('file')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->create_action()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-25 20:04:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 20:04:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 20:05:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 20:05:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 20:07:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 20:07:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 20:07:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 20:09:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 20:10:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 20:10:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 20:12:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-25 20:12:24 --> TypeError: trim(): Argument #1 ($string) must be of type string, null given
+[Method: POST, Route: Clientes/create_action]
+in SYSTEMPATH\Validation\Validation.php on line 322.
+ 1 SYSTEMPATH\Validation\Validation.php(322): trim(null)
+ 2 SYSTEMPATH\Validation\Validation.php(204): CodeIgniter\Validation\Validation->processRules('file', 'file', null, [...], [...], 'file')
+ 3 APPPATH\Controllers\Clientes.php(143): CodeIgniter\Validation\Validation->run()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->create_action()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-25 20:13:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 20:13:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 20:19:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 20:19:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 20:19:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 20:19:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 20:19:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 20:19:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 20:19:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 20:21:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 20:21:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 20:24:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 20:24:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 20:24:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 20:27:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 20:27:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 20:29:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 20:29:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 20:29:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 20:33:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 20:33:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 20:41:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 20:41:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 20:45:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 20:51:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 20:51:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 20:54:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 20:55:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 20:55:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 20:56:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 20:56:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 20:56:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 20:56:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 20:57:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 20:57:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 20:57:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 20:57:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 20:57:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 20:57:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 21:18:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-25 21:18:23 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: Clientes/read/img/undraw_profile_1.svg]
+in APPPATH\Views\clientes\read_clientes.php on line 6.
+ 1 APPPATH\Views\clientes\read_clientes.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\clientes\\read_clientes.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\clientes\\read_clientes.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('clientes/read_clientes', [], true)
+ 5 APPPATH\Controllers\Clientes.php(100): view('clientes/read_clientes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->read('img', 'undraw_profile_1.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-25 21:18:23 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: Clientes/read/img/undraw_profile_2.svg]
+in APPPATH\Views\clientes\read_clientes.php on line 6.
+ 1 APPPATH\Views\clientes\read_clientes.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\clientes\\read_clientes.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\clientes\\read_clientes.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('clientes/read_clientes', [], true)
+ 5 APPPATH\Controllers\Clientes.php(100): view('clientes/read_clientes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->read('img', 'undraw_profile_2.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-25 21:18:23 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: Clientes/read/img/undraw_profile.svg]
+in APPPATH\Views\clientes\read_clientes.php on line 6.
+ 1 APPPATH\Views\clientes\read_clientes.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\clientes\\read_clientes.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\clientes\\read_clientes.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('clientes/read_clientes', [], true)
+ 5 APPPATH\Controllers\Clientes.php(100): view('clientes/read_clientes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->read('img', 'undraw_profile.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-25 21:18:23 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: Clientes/read/img/undraw_profile_3.svg]
+in APPPATH\Views\clientes\read_clientes.php on line 6.
+ 1 APPPATH\Views\clientes\read_clientes.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\clientes\\read_clientes.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\clientes\\read_clientes.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('clientes/read_clientes', [], true)
+ 5 APPPATH\Controllers\Clientes.php(100): view('clientes/read_clientes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->read('img', 'undraw_profile_3.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-25 21:18:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 21:18:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-25 21:19:31 --> TypeError: trim(): Argument #1 ($string) must be of type string, null given
+[Method: POST, Route: Clientes/create_action]
+in SYSTEMPATH\Validation\Validation.php on line 322.
+ 1 SYSTEMPATH\Validation\Validation.php(322): trim(null)
+ 2 SYSTEMPATH\Validation\Validation.php(204): CodeIgniter\Validation\Validation->processRules('file', 'file', null, [...], [...], 'file')
+ 3 APPPATH\Controllers\Clientes.php(140): CodeIgniter\Validation\Validation->run()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->create_action()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-25 21:22:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 21:22:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-25 21:22:30 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: Clientes/read/img/undraw_profile_1.svg]
+in APPPATH\Views\clientes\read_clientes.php on line 6.
+ 1 APPPATH\Views\clientes\read_clientes.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\clientes\\read_clientes.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\clientes\\read_clientes.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('clientes/read_clientes', [], true)
+ 5 APPPATH\Controllers\Clientes.php(100): view('clientes/read_clientes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->read('img', 'undraw_profile_1.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-25 21:22:30 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: Clientes/read/img/undraw_profile_2.svg]
+in APPPATH\Views\clientes\read_clientes.php on line 6.
+ 1 APPPATH\Views\clientes\read_clientes.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\clientes\\read_clientes.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\clientes\\read_clientes.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('clientes/read_clientes', [], true)
+ 5 APPPATH\Controllers\Clientes.php(100): view('clientes/read_clientes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->read('img', 'undraw_profile_2.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-25 21:22:30 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: Clientes/read/img/undraw_profile.svg]
+in APPPATH\Views\clientes\read_clientes.php on line 6.
+ 1 APPPATH\Views\clientes\read_clientes.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\clientes\\read_clientes.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\clientes\\read_clientes.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('clientes/read_clientes', [], true)
+ 5 APPPATH\Controllers\Clientes.php(100): view('clientes/read_clientes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->read('img', 'undraw_profile.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-25 21:22:30 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: Clientes/read/img/undraw_profile_3.svg]
+in APPPATH\Views\clientes\read_clientes.php on line 6.
+ 1 APPPATH\Views\clientes\read_clientes.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\clientes\\read_clientes.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\codeigniter4-crud\\app\\Views\\clientes\\read_clientes.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('clientes/read_clientes', [], true)
+ 5 APPPATH\Controllers\Clientes.php(100): view('clientes/read_clientes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->read('img', 'undraw_profile_3.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-25 21:22:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 21:22:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 21:23:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 21:23:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 21:23:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 21:23:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 21:23:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 21:23:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 21:23:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
