@@ -36,11 +36,11 @@ In short, **CodeIgniter 4 CRUD Generator** is your ideal ally for saving time, r
 - On **Controller** `app/Controller/BaseController.php`, load database library, session library and url helper \* `protected $helpers = ['html','text','form','session'];`
   **On file `.env`, set :**.
 
-- database.default.hostname = localhost
-- database.default.database = database
-- database.default.username = username
-- database.default.password = password
-- database.default.DBDriver = MySQLi
+database.default.hostname = localhost
+database.default.database = database
+database.default.username = username
+database.default.password = password
+database.default.DBDriver = MySQLi
 
 **Note:** If you get an error when connecting to the database I recommend removing this line of code from the file `.env`  
 `# If you use MySQLi as tests, first update the values of Config\Database::$tests.`
