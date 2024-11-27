@@ -20,7 +20,7 @@ if (isset($_POST['save'])) {
 <html>
 
 <head>
-    <title>cxcrud Codeigniter 4 CRUD Generator</title>
+    <title>Cx crud Codeigniter 4 CRUD Generator</title>
     <link rel="stylesheet" href="bootstrap.min.css" />
     <style>
         body {
@@ -50,7 +50,7 @@ if (isset($_POST['save'])) {
                         <div class="col-md-6">
                             <div class="radio" style="margin-bottom: 0px; margin-top: 0px">
                                 <label>
-                                    <input type="radio" name="target" value="output/" <?php echo $target == 'output/' ? 'checked' : ''; ?>>
+                                    <input type="radio" disabled name="target" value="output/" <?php echo $target == 'output/' ? 'checked' : ''; ?>>
                                     output/
                                 </label>
                             </div>

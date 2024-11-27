@@ -2,8 +2,9 @@
 
 function safe($str)
 {
-    return strip_tags(trim($str));
+    return strip_tags(trim($str ?? ''));
 }
+
 
 function readJSON($path)
 {
@@ -17,7 +18,7 @@ function createFile($string, $path)
     $create = fopen($path, "w") or die("Change your permision folder for application and harviacode folder to 777");
     fwrite($create, $string);
     fclose($create);
-    
+
     return $path;
 }
 
@@ -27,5 +28,3 @@ function label($str)
     $label = ucwords($label);
     return $label;
 }
-
-?>

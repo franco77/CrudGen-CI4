@@ -49,9 +49,7 @@ if (isset($_POST['generate'])) {
         // generate
         include 'core/create_controller.php';
         include 'core/create_model.php';
-        if ($jenis_tabel == 'reguler_table') {
-            include 'core/create_view_list.php';
-        }
+        include 'core/create_view_list.php';
         include 'core/create_view_form.php';
         include 'core/create_view_read.php';
 
@@ -120,9 +118,7 @@ if (isset($_POST['generateall'])) {
         // generate
         include 'core/create_controller.php';
         include 'core/create_model.php';
-        if ($jenis_tabel == 'reguler_table') {
-            include 'core/create_view_list.php';
-        }
+        include 'core/create_view_list.php';
         include 'core/create_view_form.php';
         include 'core/create_view_read.php';
         include 'core/create_views_layout_sidebar.php';
