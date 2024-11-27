@@ -1,60 +1,55 @@
-# CodeIgniter 4 Framework
+### Codeigniter 4 CRUD Generator 1.0
 
-## What is CodeIgniter?
+**Créditos :** [github: irev/ci4-ligatcode](https://github.com/irev/ci4-ligatcode)
 
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
-More information can be found at the [official site](https://codeigniter.com).
+**CodeIgniter 4 CRUD Generator** is a powerful and easy-to-use tool that allows you to automatically generate models, controllers, and views directly from your database tables. Designed to streamline your workflow, this tool significantly reduces the time required to create applications with CRUD (Create, Read, Update, Delete) operations, allowing you to focus on business logic and other more important aspects of your project.
 
-This repository holds the distributable version of the framework.
-It has been built from the
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
+With **CodeIgniter 4 CRUD Generator**, you will get clean, organized, and easy-to-understand code, designed to ensure maximum comprehension and ease of maintenance. The built-in features include:
 
-More information about the plans for version 4 can be found in [CodeIgniter 4](https://forum.codeigniter.com/forumdisplay.php?fid=28) on the forums.
+*   **Full CRUD operations** to efficiently manage data.
+*   **Built-in pagination** to handle large volumes of information.
+*   **Dynamic search and filtering** to find records quickly.
+*   **Automatic form generation** with fields validated based on your custom rules.
+*   **Robust form validation** based on CodeIgniter rules.
 
-You can read the [user guide](https://codeigniter.com/user_guide/)
-corresponding to the latest version of the framework.
+The view layout uses **Bootstrap 4**, ensuring a modern, responsive, and easy-to-customize interface. This integration provides a consistent and engaging user experience without the need to design from scratch.
 
-## Important Change with index.php
+Furthermore, this tool is designed for both experienced and beginner developers, offering an accessible environment for anyone looking to streamline their development process without sacrificing code quality.
 
-`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
-for better security and separation of components.
+In short, **CodeIgniter 4 CRUD Generator** is your ideal ally for saving time, reducing errors, and maintaining high standards in application development. Start enjoying faster and more efficient development today!
 
-This means that you should configure your web server to "point" to your project's *public* folder, and
-not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
-framework are exposed.
+**Preparation before using this Codeigniter 4 CRUD Generator (Important) :**
 
-**Please** read the user guide for a better explanation of how CI4 works!
+*   On **Controller** `app/Controller/BaseController.php`, load database library, session library and url helper
+    *   `protected $helpers = ['html','text','form','session'];`
+*   On file `.env`, set :.
+    *   database.default.hostname = localhost
+    *   database.default.database = database
+    *   database.default.username = username
+    *   database.default.password = password
+    *   database.default.DBDriver = MySQLi
 
-## Repository Management
+**Note:** If you get an error when connecting to the database I recommend removing this line of code from the file `.env`  
+`# If you use MySQLi as tests, first update the values of Config\Database::$tests.`
 
-We use GitHub issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
-We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
-FEATURE REQUESTS.
+**Using this CRUD Generator :**
 
-This repository is a "distribution" one, built by our release preparation script.
-Problems with it can be raised on our forum, or as issues in the main repository.
+*   Simply put `'cxcrud' folder`,view folder, `'asset' folder` and `.htaccess` file into your project root folder.
+*   Open `http://localhost/({yourprojectname}/cxcrud.`
+*   Select table and push generate button.
 
-## Contributing
+**FAQ :**
 
-We welcome contributions from the community.
+*   Select table show no data. Make sure you have correct database configuration on application/config/database.php and load database library on autoload.
+*   Error chmod on mac and linux. Please change your application folder and harviacode folder chmod to 777
+*   Error cannot Read, Update, Delete. Make sure your table have primary key.
 
-Please read the [*Contributing to CodeIgniter*](https://github.com/codeigniter4/CodeIgniter4/blob/develop/CONTRIBUTING.md) section in the development repository.
+  
 
-## Server Requirements
+**Update Codeigniter 4 CRUD Generator**
 
-PHP version 8.1 or higher is required, with the following extensions installed:
-
-- [intl](http://php.net/manual/en/intl.requirements.php)
-- [mbstring](http://php.net/manual/en/mbstring.installation.php)
-
-> [!WARNING]
-> - The end of life date for PHP 7.4 was November 28, 2022.
-> - The end of life date for PHP 8.0 was November 26, 2023.
-> - If you are still using PHP 7.4 or 8.0, you should upgrade immediately.
-> - The end of life date for PHP 8.1 will be December 31, 2025.
-
-Additionally, make sure that the following extensions are enabled in your PHP:
-
-- json (enabled by default - don't turn it off)
-- [mysqlnd](http://php.net/manual/en/mysqlnd.install.php) if you plan to use MySQL
-- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
+*   V.1.0 (meedun) - 30 August 2020
+    *   Add the displayed database field selector
+        *   construct (model, view and controller) for Codeigniter framework version 4.0.4
+        *   Support custom page layout, built-in features of Codeigniter 4
+        *   This feature only affects the Generator button, ignored in Generate All button
