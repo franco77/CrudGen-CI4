@@ -1,4 +1,4 @@
-### Codeigniter 4 CRUD Generator :fa-heart:
+### Codeigniter 4 CRUD Generator
 
 **Créditos :** [github: irev/ci4-ligatcode](https://github.com/irev/ci4-ligatcode)
 
@@ -6,7 +6,7 @@
 
 > **NOTE: This Crud is a modification of the ligatcode project.**
 
-## Highlighted Features: :fa-thumbs-o-up::fa-thumbs-o-up:
+## Highlighted Features: 
 
 - [x] CRUD Generator
 - [x] MODEL, VIEW, CONTROLER
@@ -45,7 +45,7 @@ database.default.DBDriver = MySQLi
 **Note:** If you get an error when connecting to the database I recommend removing this line of code from the file `.env`  
 `# If you use MySQLi as tests, first update the values of Config\Database::$tests.`
 
-**Using this CRUD Generator :** :fa-bolt:
+**Using this CRUD Generator :**
 
 - Simply place the **'cxcrud'** folder in your project's main directory, the **'layout'** folder goes inside the `view/` folder and the **'asset'** folder goes inside the `public/` folder.
 - Open http://localhost/({yourprojectname}/cxcrud.
@@ -57,7 +57,7 @@ database.default.DBDriver = MySQLi
 - Error chmod on mac and linux. Please change your application folder and harviacode folder chmod to 777
 - Error cannot Read, Update, Delete. Make sure your table have primary key.
 
-**Upcoming Updates** :fa-clock-o:
+**Upcoming Updates** 
 
 - WYSIWYG editor
 - View action with modal
